@@ -1,4 +1,5 @@
 import './App.css';
+import MuiButton from '../components/MuiButton'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         >
           DTI CODING | PROJECT CLUB
         </a>
+        <MuiButton>Lost Something</MuiButton>
+        <MuiButton>Found Something</MuiButton>
       </header>
     </div>
   );
